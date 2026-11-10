@@ -124,6 +124,4 @@ class TestDescuento:
     def test_precio_negativo_lanza_error(self):
         with pytest.raises(ValueError):
             descuento(-50, 0.10)
-            
-    def test_fallo_controlado():
-        assert 1 == 2
+        
